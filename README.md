@@ -4,6 +4,10 @@ Use face detection to control the circle to arrive the destination
 - OpenCV 安裝 ----> Ubuntu[安裝教學](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)  
 - Raspberry[安裝教學](https://paper.dropbox.com/doc/Raspi-install-opencv-IHaVgymS9tRgfhnCaCSGv)
 # How to
+- Please notice which the directory you install the opencv and modify the code in face_game.py
+
+  # Load prebuilt model for Frontal Face
+	cascadePath = "/home/nicole/opencv-3.2.0/data/haarcascades/haarcascade_frontalface_alt.xml"
 - python face_game.py
 - Use trackbar to swith 'Start' bar 0 to 1, therefore, you can start the game.
 - You can also switch the 'Level' bar 1 to 5, the width of path would be changed to more small.
